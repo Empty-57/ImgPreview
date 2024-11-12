@@ -4,6 +4,7 @@ import {onMounted} from "vue";
 let img_flag = true;
 
 function imgPreview(e) {
+  document.querySelector('#inside_box').style.transform = 'none'
   const img_mask = document.querySelector('#img_mask')
   const window_width = document.documentElement.clientWidth;
   const window_height = document.documentElement.clientHeight;
